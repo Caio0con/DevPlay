@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
+    <title>AluraPlay</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Cabecalho -->
+    <header>
+
+        <nav class="cabecalho__container">
+
+            <h1 class="logo__item" href="#"></h1>
+
+            <div class="cabecalho__pesquisar__item">
+                <form action="">
+                    <input type="search" placeholder="Pesquisar" id="pesquisar" class="pesquisar__input">
+                    <label for="pesquisar" class="pesquisar__label"></label>
+                </form>
+                <a href="#" class="cabecalho__audio"></a>
+            </div>
+
+            <div class="cabecalho__icones__item">
+                <a href="#" class="cabecalho__videos"></a>
+                <a href="#" class="cabecalho__apps"></a>
+                <a href="#" class="cabecalho__notificacoes"></a>
+                <a href="#" class="cabecalho__avatar"></a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Menu lateral -->
+
+    <aside class="menu__container">
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__inicio icone-item"></i>
+                    <span>Início</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__explorar icone-item"></i>
+                    <span>Explorar</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__shorts icone-item"></i>
+                    <span>Shorts</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__inscricoes icone-item"></i>
+                    <span>Inscrições</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__biblioteca icone-item"></i>
+                    <span>Biblioteca</span></a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__historico icone-item"></i>
+                    <span>Histórico</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__relogio icone-item"></i>
+                    <span>Assistir mais tarde</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__like icone-item"></i>
+                    <span>Marcados com like</span></a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__mostrar icone-item"></i>
+                    <span>Mostrar mais 2</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__deschamps icone-item"></i>
+                    <span>Felipe Deschamps</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__nerd icone-item"></i>
+                    <span>Jovem Nerd</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__souto icone-item"></i>
+                    <span>Mario Souto</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__iamarino icone-item"></i>
+                    <span>Atila Iamarino</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__ballerini icone-item"></i>
+                    <span>Rafaella Ballerini</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__gaveta icone-item"></i>
+                    <span>Gaveta</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icone__alura icone-item"></i>
+                    <span>Alura</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens inscricoes" href="#">INSCRIÇÕES</a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li class="jogos">
+                <a class="menu__itens" href="#">
+                    <i class="icone__jogos icone-item"></i>
+                    <span>Jogos</span></a>
+            </li>
+
+            <li class="filmes">
+                <a class="menu__itens" href="#">
+                    <i class="icone__filmes icone-item"></i>
+                    <span>Filmes</span></a>
+            </li>
+            <li class="premium">
+                <a class="menu__itens" href="#">
+                    <i class="icone__videos icone-item"></i>
+                    <span>Vídeo Premium</span></a>
+            </li>
+
+            <li class="menu__itens maispagina">
+                <a href="#">MAIS DA PÁGINA</a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- Seção superior -->
+
+    <section class="superior__secao__container">
+        <a class="superior__item" href="#">Tudo</a>
+        <a class="superior__item" href="#">Debates</a>
+        <a class="superior__item" href="#">Ao Vivo</a>
+        <a class="superior__item" href="#">Podcasts</a>
+        <a class="superior__item" href="#">Fundos de Investimento</a>
+        <a class="superior__item" href="#">Desenhos</a>
+        <a class="superior__item" href="#">Data Science</a>
+        <a class="superior__item" href="#">Apps</a>
+        <a class="superior__item" href="#">Linguagem de Programação</a>
+        <a class="superior__item" href="#">Ciência da Computação</a>
+        <a class="superior__item" href="#">Marketing</a>
+    </section>
+
+    <!-- Vídeos -->
+
+    <ul class="videos__container">
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/60I1pHFpn7o?si=wTTI7v0fANK2br45" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="descricao-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo do canal alura">
+                <h3>Rotina de Um Programador Criando Uma Startup</h3>
+                <p>50 mil visualizações - Há 10 dias</p>
+            </div>
+        </li>
+    <li class="videos__item">
+        <iframe width="100%" height="72%" src="https://www.youtube.com/embed/r5b7RyPUxVA?si=meleSN001hSehdPq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="./img/videos/Ellipse 11.png" alt="logo canal alura">
+            <h3>Guia de Páginas Responsivas | Passo a Passo</h3>
+            <p>50 mil visualizações - Há 10 dias</p>
+        </div>
+    </li>
+    <li class="videos__item">
+        <iframe width="100%" height="72%" src="https://www.youtube.com/embed/_RQw5Nw7Op0?si=F6KV205OOtAe5oSR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="./img/videos/Ellipse 11.png" alt="logo alura">
+            <h3>Como Criar um bot de Telegram com Python</h3>
+            <p>50 mil visualizações - Há 10 dias</p>
+        </div>
+    </li>
+    <li class="videos__item">
+        <iframe width="100%" height="72%" src="https://www.youtube.com/embed/k5RUngL_HUg?si=VsoPYgqeozF02qC7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="./img/videos/Ellipse 11.png" alt="Logo Alura">
+            <h3>Assita um DEV Senior Programando de Verdade</h3>
+            <p>50 mil visualizações - Há 10 dias </p>
+        </div>
+    </li>
+    <li class="videos__item">
+        <iframe width="100%" height="72%" src="https://www.youtube.com/embed/gh6txL0S5ME?si=TFRo1SsoPctFM47O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="" alt="">
+            <h3>Como EU estudo Programação - Python & JavaScript</h3>
+            <p>50 mil visualizações - Há 10 dias</p>
+        </div>
+    </li>
+<li class="videos__item">
+    <iframe width="100%" height="72%" src="https://www.youtube.com/embed/_A62jEbRBg4?si=B2i4_5tJLtrGAc2J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="descricao-video">
+        <img src="./img/videos/Ellipse 11.png" alt="Logo Alura">
+        <h3>Rotina de líder de programação da DevMedia</h3>
+        <p>50 mil visualizações - Há 10 dias</p>
+    </div>
+</li>
+<li class="videos__item">
+    <iframe width="100%" height="72%" src="https://www.youtube.com/embed/no1yHN5YsdA?si=serX8v-1tTNxtHe-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="descricao-video">
+        <img src="./img/videos/Ellipse 11.png" alt="Logo Alura">
+        <h3>Melhores Cursos Gratuitos Para Aprender Programação em 2024</h3>
+        <p>50 mil visualizações - Há 10 dias</p>
+    </div>
+</li>
+<li class="videos__item">
+    <iframe width="100%" height="72%" src="https://www.youtube.com/embed/YfYOcMLZpzs?si=gULjHCD_WT5l5H29" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="descricao-video">
+        <img src="./img/videos/Ellipse 11.png" alt="logo alura">
+        <h3>Como Baixar E Fazer O Pendrive Bootavel Do Fedora</h3>
+        <p>50 mil visualizações - Há 10 dias</p>
+    </div>
+</li>
+<li class="videos__item">
+    <iframe width="100%" height="72%" src="https://www.youtube.com/embed/qK8HIuFPM9g?si=O0L8oE1Q1UCOLytY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="descricao-video">
+        <img src="./img/videos/Ellipse 11.png" alt="logo alura">
+        <h3>Como Conseguir Freela Sendo Programador e Ganhar em Dolar</h3>
+        <p>50 mil visualizações - Há 10 dias</p>
+    </div>
+</li>
+<li class="videos__item">
+    <iframe width="100%" height="72%" src="https://www.youtube.com/embed/4P4U8aUM0ns?si=WzyOlDwt6cWHW-9_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="descricao-video">
+        <img src="./img/videos/Ellipse 11.png" alt="Logo alura">
+        <h3>Rotina de PROGRAMADOR - talvez você fique desapontado</h3>
+        <p>50 mil visualizações - Há 10 dias</p>
+    </div>
+</li>
+<li class="videos__item">
+    <iframe width="100%" height="72%" src="https://www.youtube.com/embed/QfqTecXlujo?si=vSp7xGchsHLSAJMG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="descricao-video">
+        <img src="./img/videos/Ellipse 11.png" alt="Logo alura">
+        <h3>Por que as Pessoas estão Desistindo da Programação?</h3>
+        <p>50 mil visualizações - Há 10 dias</p>
+    </div>
+</li>
+<li class="videos__item">
+    <iframe width="100%" height="72%" src="https://www.youtube.com/embed/wjDteOd996I?si=86bWqBANsuOJfBTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="descricao-video">
+        <img src="./img/videos/Ellipse 11.png" alt="Logo alura">
+        <h3>Desenvolvendo Meu Primeiro Site com HTML|#4</h3>
+        <p>50 mil visualizações - Há 10 dias</p>
+    </div>
+</li>
+
+    </ul>
+
+    <!-- <Seção rodapé> -->
+    <footer class="rodape__container">
+        <section>
+            <h2 class="rodape__titulo">Programação</h2>
+            <p class="rodape__texto">Lógica</p>
+            <p>Python</p>
+            <p>Computação</p>
+            <p>Jogos</p>
+            <p>Computação</p>
+            <p>Node JS</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">Data Science</h2>
+            <p class="rodape__texto">Ciência de dados</p>
+            <p>BI</p>
+            <p>SQL</p>
+            <p>Banco de Dados</p>
+            <p>Machine Learning</p>
+            <p>NoSQL</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">UX e Design</h2>
+            <p class="rodape__texto">Photoshop</p>
+            <p>Illustrator</p>
+            <p>Usabilidade</p>
+            <p>Vídeo e Motion</p>
+            <p>Figma</p>
+            <p>Interface</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">Inovação e Gestão</h2>
+            <p class="rodape__texto">Métodos ágeis</p>
+            <p>Softskills</p>
+            <p>Liderança</p>
+            <p>Gestão</p>
+            <p>Startups</p>
+            <p>Vendas</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">Front-end</h2>
+            <p class="rodape__texto">HTML</p>
+            <p>CSS</p>
+            <p>React</p>
+            <p>Angular</p>
+            <p>JavaScript</p>
+            <p>jQuery</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">Devops</h2>
+            <p class="rodape__texto">AWS</p>
+            <p>Azure</p>
+            <p>Docker</p>
+            <p>Segurança</p>
+            <p>IaC</p>
+            <p>Linux</p>
+        </section>
+
+        <section>
+            <h2 class="rodape__titulo">Mobile</h2>
+            <p class="rodape__texto">React Native</p>
+            <p>Flutter</p>
+            <p>iOS</p>
+            <p>Swift</p>
+            <p>Android</p>
+            <p>Kotlin</p>
+        </section>
+    </footer>
+
+</body>
+
+</html>
